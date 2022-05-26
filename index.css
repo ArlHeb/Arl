@@ -76,21 +76,25 @@ h2 {
 
 /* Map content here*/
 .map-content {
-    font-size: 2.5em;
-    font: 15px Arial;
-    color: white;
-    background-color: rgb(29, 130, 53);
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-    max-width: 100%;
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
 }
 
 .map {
-    min-width: 50vw;
-    min-height: 50vw;
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
 
 }
 
