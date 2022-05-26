@@ -26,6 +26,7 @@ header {
     width: 100%;
     font-size: 4rem;
 }
+
 /* Style the top mav here*/
 
 .topnav {
@@ -36,6 +37,7 @@ header {
     margin-right: auto;
     font-size: 1.5rem;
 }
+
 /* Style the heading font here */
 
 h1 {
@@ -97,6 +99,7 @@ h2 {
     min-height: 50vw;
 
 }
+
 /* Style contact us here */
 
 .contact-us {
@@ -117,6 +120,7 @@ h2 {
     font-size: 1.5vw;
 
 }
+
 /* Style the images below */
 
 .image-inside {
@@ -143,6 +147,7 @@ img {
     max-width: 100%;
     margin: 25px;
 }
+
 /* Style the form here */
 
 .form {
