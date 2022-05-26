@@ -65,6 +65,7 @@ h2 {
     display: block;
     color: white;
     text-align: center;
+    overflow: hidden;
     padding: 14px 16px;
 }
 
@@ -73,6 +74,7 @@ h2 {
     margin: auto;
     max-width: 80%;
     display: grid;
+    overflow: hidden;
     grid-template-columns: auto auto;
 }
 
@@ -162,6 +164,7 @@ img {
     background-color: #37455a;
     text-align: left;
     padding: 10px;
+    overflow: hidden;
     max-height: 400px;
     width: 100%;
     padding: 60px;
