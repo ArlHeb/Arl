@@ -22,7 +22,6 @@ header {
     width: 100%;
     font-size: 4rem;
 }
-
 /* Style the top mav here*/
 
 .topnav {
@@ -33,7 +32,6 @@ header {
     margin-right: auto;
     font-size: 1.5rem;
 }
-
 /* Style the heading font here */
 
 h1 {
@@ -76,28 +74,23 @@ h2 {
 
 /* Map content here*/
 .map-content {
-    overflow:hidden;
-
-    padding-bottom:56.25%;
-
-    position:relative;
-
-    height:0;
+    font-size: 2.5em;
+    font: 15px Arial;
+    color: white;
+    background-color: rgb(29, 130, 53);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    max-width: 100%;
 }
 
 .map {
-    left:0;
-
-    top:0;
-
-    height:100%;
-
-    width:100%;
-
-    position:absolute;
+    min-width: 50vw;
+    min-height: 50vw;
 
 }
-
 /* Style contact us here */
 
 .contact-us {
@@ -118,7 +111,6 @@ h2 {
     font-size: 1.5vw;
 
 }
-
 /* Style the images below */
 
 .image-inside {
@@ -145,7 +137,6 @@ img {
     max-width: 100%;
     margin: 25px;
 }
-
 /* Style the form here */
 
 .form {
