@@ -1,6 +1,4 @@
-AuthName "Secure directory"
-AuthUserFile /haukai-restaurant-nz.herokuapp.com/staff.html/.htpasswd
 AuthType Basic
-<Files staff.html>
-require valid-user
-</Files>
+AuthName "Restricted access"
+AuthUserFile "/app/.htpasswd"
+Require valid-user
